@@ -3,7 +3,7 @@
 describe('fillTank', () => {
   const { fillTank } = require('./fillTank');
 
-  it('if amound is undefined', () => {
+  it('if amount not passed', () => {
     const customer = {
       money: 64, // customer account balance
       vehicle: {
